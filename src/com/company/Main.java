@@ -10,5 +10,6 @@ public class Main {
         manager.addStudents();
         manager.addTeachers();
         manager.addCourses();
+        manager.addCourseMaterial();
     }
 }
