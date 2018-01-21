@@ -8,5 +8,7 @@ public class Main {
         manager.createSchools();
         manager.addClassRooms();
         manager.addStudents();
+        manager.addTeachers();
+        manager.addCourses();
     }
 }

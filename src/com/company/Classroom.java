@@ -9,8 +9,9 @@ import java.util.List;
 public class Classroom {
     private String className = "";
     private int maxAmountOfStudent = 30;
+    private int maxAmountOfCourses = 30;
     private List<Student> studentList = new ArrayList<Student>(maxAmountOfStudent);
-    private List<Course> courseList = new ArrayList<Course>();
+    private List<Course> courseList = new ArrayList<Course>(maxAmountOfCourses);
     private int nrOfStudents;
 
     public Classroom(String className) {
